@@ -1,0 +1,44 @@
+body {
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid black;
+    width: 75%;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.flexbox-container {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexbox-container img:hover {
+    box-shadow: 1px 20px 50px rgba(0, 0, 0, 0.8);
+}
+
+.telMainHead {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footerId {
+    text-align: center;
+    font-style: italic;
+    font-family: "Kaushan Script", serif;
+}
+
+@media only screen and (max-width:770px) {
+    #flexbox-rps {
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        padding: 10px;
+    }
+}
